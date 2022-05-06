@@ -35,6 +35,11 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
+
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
 }
 
 #hero .profile-img {
@@ -66,4 +71,15 @@ section h3 {
 header a {
     text-decoration: none;
     color: black;
+}
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://w.namu.la/s/cb2315c3b815eff41b5a3ae21d59dd0309970309317a1b1fb1d0565e6c8d7bd27b4eef794aaca282072c31647e11b4a525cfef4de530064e09c836c9ca0a4579e2be7ae2d18cd94248412f7870e0fcac13cec96786270c960b65d921a0a0a670');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/beach.jpg');
+}
+
+#video {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://w.namu.la/s/7e4a706fae0c7a0bbb0acb184442418fd5f2d1a4d38991cacc5bd7fdee308423c40c2b81b4c71bfac09b343abb20807dcef94a940447e2b960b308e9666ae5ca71a7b52c6df2f6f5b696e5ee361757d3168b0b5b011ccd44587b6289b8032f2b');
 }
